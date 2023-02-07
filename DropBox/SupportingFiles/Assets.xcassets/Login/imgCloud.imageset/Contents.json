@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "imgCloud.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

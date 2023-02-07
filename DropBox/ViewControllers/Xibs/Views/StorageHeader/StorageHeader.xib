@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Gilroy-SemiBold.ttf">
+            <string>Gilroy-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="StorageHeader" customModule="DropBox" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="6je-Zo-hTC" id="27t-Gc-z1h"/>
+                <outlet property="lblTitle" destination="JFg-WA-fq0" id="rsS-cg-kD9"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="359" height="85"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6je-Zo-hTC">
+                    <rect key="frame" x="0.0" y="0.0" width="359" height="85"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="L7E-9n-Y51">
+                            <rect key="frame" x="0.0" y="0.0" width="359" height="85"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JFg-WA-fq0">
+                                    <rect key="frame" x="20" y="0.0" width="319" height="85"/>
+                                    <fontDescription key="fontDescription" name="Gilroy-SemiBold" family="Gilroy-SemiBold" pointSize="16"/>
+                                    <color key="textColor" name="#567DF4"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <directionalEdgeInsets key="directionalLayoutMargins" top="0.0" leading="20" bottom="0.0" trailing="20"/>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" name="#EEF7FE"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="L7E-9n-Y51" secondAttribute="bottom" id="6Z8-AR-Cuu"/>
+                        <constraint firstAttribute="trailing" secondItem="L7E-9n-Y51" secondAttribute="trailing" id="I0V-CD-Oxd"/>
+                        <constraint firstItem="L7E-9n-Y51" firstAttribute="top" secondItem="6je-Zo-hTC" secondAttribute="top" id="owg-8p-DUX"/>
+                        <constraint firstItem="L7E-9n-Y51" firstAttribute="leading" secondItem="6je-Zo-hTC" secondAttribute="leading" id="rJg-Tg-t1D"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="6je-Zo-hTC" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="0D1-fA-qgw"/>
+                <constraint firstItem="6je-Zo-hTC" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="2eW-Cx-sPO"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="6je-Zo-hTC" secondAttribute="trailing" id="3Wz-Ex-UTU"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="6je-Zo-hTC" secondAttribute="bottom" id="arF-l9-Fxw"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="92.028985507246389" y="-200.55803571428569"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="#567DF4">
+            <color red="0.33700001239776611" green="0.49000000953674316" blue="0.9570000171661377" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="#EEF7FE">
+            <color red="0.93300002813339233" green="0.96899998188018799" blue="0.99599999189376831" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

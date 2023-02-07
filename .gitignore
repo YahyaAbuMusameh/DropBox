@@ -1,0 +1,14 @@
+# Xcode
+xcuserdata/
+
+## Build generated
+build/
+DerivedData/
+
+## Other
+.DS_Store
+xcschememanagement.plist
+*.xcuserstate
+
+# Swift Package Manager
+.build/
